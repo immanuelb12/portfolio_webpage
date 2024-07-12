@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#port">Portfolio</a></li>
+            </ul>
+            <a class="contact-button" href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hello! I Am <span>Immanuel</span></h1>
+                <p>I'm a Web Developer creating website with ful feched web-design Also with backend part too.</p>
+                <button class="read-me">read more</button>
+            </div>
+            <div class="hero-image">
+                <img src="photo.jpg" alt="img not found">
+            </div>
+        </section>
+        
+        <section id="services"   class="services">
+            <h2>Provide Wide Range of Digital Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <img src="t3.png" alt="Web Design" height="50%">
+                    <h3>Web Development</h3>
+                    <p>Specialize in creating responsive and dynamic websites tailored to your business needs, 
+                        ensuring a seamless user experience and optimal performance</p>
+                    <button class="read-me">read more</button>
+                </div>
+                <div class="service-card">
+                    <img src="t2.jpg" alt="not found" >
+                    <h3>Artificial Intelleigence</h3>
+                    <p>Leverage cutting-edge AI technologies to develop intelligent systems that can automate processes, analyze data, and deliver insightful predictions to drive your business forward.</p>
+                    <button class="read-me">read more</button>
+                </div>
+                <div class="service-card">
+                    <img src="t1.jpg" alt="not found" >
+                    <h3>Machine Learning</h3>
+                    <p>Implement advanced machine learning models to uncover patterns in your data, enabling predictive analytics and decision-making capabilities that enhance operational efficiency and innovation</p>
+                    <button class="read-me">read more</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>My Skills</h2> 
+                <p>Possess a diverse skill set in web development, including proficiency in HTML, CSS, JavaScript, and PHP, as well as expertise in cutting-edge technologies like ReactJS. Additionally, I have a strong foundation in artificial intelligence and machine learning, allowing me to create intelligent systems and predictive models that drive innovation and efficiency</p>
+                <button class="download-cv">
+                <a href="resume.pdf" id="pdf" target="_blank">Download CV</a></button>
+            </div>
+            <div class="skills">
+                <div class="skill">
+                    <div class="circle">90%</div>
+                    <p>HTML & CSS</p>
+                </div>
+                <div class="skill">
+                    <div class="circle">55%</div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <div class="circle">70%</div>
+                    <p>PHP</p>
+                </div>
+                <div class="skill">
+                    <div class="circle">30%</div>
+                    <p>ReactJS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="port" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="landingpage.png" alt="Project 1">
+                    <h3>Landing Page</h3>
+                    <p>Explore a world of knowledge with EduLearn—a seamless journey into learning, where expertise meets innovation to empower your educational aspirations.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="react todo list.png" alt="Project 2">
+                    <h3>TO-DO List</h3>
+                    <p>Stay organized and productive with our ReactJS-powered Todo List—an intuitive way to manage tasks, streamline your day, and achieve more</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="temp.png" alt="Project 3">
+                    <h3>Temperature convertor</h3>
+                    <p>Convert temperatures effortlessly with our intuitive Temperature Converter tool—making complex calculations simple, so you can focus on what matters mos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="https://www.linkedin.com/in/immanuel-b-a4599a249/" target="_blank">LinkedIn</a>
+            <p>Mobile: 6369851201</p>
+            <p>Address: Karunya,Coimbatore,TN,India</p>
+        </div>
+    </footer>
+</body>
+</html>
